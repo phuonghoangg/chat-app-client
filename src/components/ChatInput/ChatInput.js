@@ -32,7 +32,7 @@ function ChatInput({handleSendMsg}) {
             setMsg('')
         }
     }
-    console.log(msg);
+    
     return <div className={cx('wrapper')}>
         <div className={cx('button-container')}>
             <div className={cx('emoji')}>
